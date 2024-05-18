@@ -1,0 +1,107 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css?family=Tinos" rel="stylesheet" type="text/css">
+<title>DMM Sample Loan Pre-Approval Letter</title>
+<style>
+  *, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  body {
+    width: 8.5in;
+    height: 11in;
+    margin: 0;
+    padding: 0;
+    /* your background image should have dimensions of 2588x3338 pixels. */
+    background-image: url('https://s3.amazonaws.com/onebrandmarketing-public/infinity_bg.png');
+    background-size: 8.5in 11in;
+    background-repeat: no-repeat;
+  }
+  .page {
+    page-break-after: always;
+    position: relative;
+    width: 8.5in;
+    height: 11in;
+  }
+  .page-content {
+    position: absolute;
+    width: 8.125in;
+    height: 10.625in;
+    left: 0.1875in;
+    top: 0.1875in;
+    background-color: rgba(0,0,0,0);
+  }
+  .text {
+    position: relative;
+    left: 55px;
+    top: 407px;
+    width: 7in;
+    font-family: 'Tinos';
+    font-size: 10pt;
+    line-height: 14pt;
+  }
+  .red-text {
+    color: red;
+  }
+  .date {
+    float:right;
+  }
+  /* your main logo should have dimensions of 240x224 pixels. */
+  #main-logo {
+    position: absolute;
+    left: 542px;
+    top: 23px;
+    width: 2in;
+    height:.3in;
+  }
+</style>
+</head>
+
+<body>
+  <div class="page">
+    <div class="page-content">
+      <div id="main-logo"><img src="https://onebrand.net/dmm/bank_logo.png" width="240px"></div>
+      <div class="text">
+        <span class="date">May 2, 2022</span><br>
+        Hello {{first_name}},<br><br>
+        As a valued Infinity Credit Union member, you have been <b>pre-approved for an Auto Loan</b> to streamline your next purchase or refinancing!<br><br>
+        If you're considering a purchase, Infinity is holding our quarterly Pre-Owned Auto Sale in our Lake Vista parking lot on Saturday, May 12 and Sunday, May 13. You'll have the opportunity to shop from over two hundred quality pre-owned, certified vehicles from local dealerships in a variety of makes and models.<br><br>
+        Or, if you're satisfied with your current auto and still owe on it, consider using this loan pre-approval to refinance and lower your monthly payment.<br><br>
+        Here are your loan pre-approval details:<br><br>
+        Loan Amount:  <span class="red-text">{{loan_amount}}</span><br>
+        Loan Rate (new or used): <span class="red-text">{{loan_rate}}</span><br>
+        Loan Maximum Term: <span class="red-text">{{loan_term}}</span><br>
+        Estimated payment amount: <span class="red-text">{{estimated_payment}}</span><br><br>
+        Your Infinity membership opens the door for all kinds of benefits. Just give us a call at (800) 555-5555 or visit your local branch to learn more about this loan pre-approval or other Infinity services.<br><br>
+        Sincerely,<br><br>
+        Sarah Sandifer<br>
+        Infinity Credit Union
+    </div>
+  </div>
+
+	  <div class="page">
+    <div class="page-content">
+      <div id="main-logo"><img src="https://onebrand.net/dmm/bank_logo.png" width="240px"></div>
+      <div class="text">
+        <span class="date">May 2, 2022</span><br>
+        Hello {{first_name}},<br><br>
+        As a valued Infinity Credit Union member, you have been <b>pre-approved for an Auto Loan</b> to streamline your next purchase or refinancing!<br><br>
+        If you're considering a purchase, Infinity is holding our quarterly Pre-Owned Auto Sale in our Lake Vista parking lot on Saturday, May 12 and Sunday, May 13. You'll have the opportunity to shop from over two hundred quality pre-owned, certified vehicles from local dealerships in a variety of makes and models.<br><br>
+        Or, if you're satisfied with your current auto and still owe on it, consider using this loan pre-approval to refinance and lower your monthly payment.<br><br>
+        Here are your loan pre-approval details:<br><br>
+        Loan Amount:  <span class="red-text">{{loan_amount}}</span><br>
+        Loan Rate (new or used): <span class="red-text">{{loan_rate}}</span><br>
+        Loan Maximum Term: <span class="red-text">{{loan_term}}</span><br>
+        Estimated payment amount: <span class="red-text">{{estimated_payment}}</span><br><br>
+        Your Infinity membership opens the door for all kinds of benefits. Just give us a call at (800) 555-5555 or visit your local branch to learn more about this loan pre-approval or other Infinity services.<br><br>
+        Sincerely,<br><br>
+        Sarah Sandifer<br>
+        Infinity Credit Union
+    </div>
+  </div>
+	  
+</body>
+
+</html>
